@@ -1,0 +1,95 @@
+//META{"name":"VeXaSuS Theme","description":"A better looking Discord! Up to date and easy to customize, now with wallpaper feature!","author":"EzCherryUwU","version":"0.0.1"}*//{}
+@import url();
+/* change the theme below */
+[class~=app] {
+    background: url(https://i.imgur.com/7Y90ez6.jpg)
+	background-size: cover: !important; /* no edit this */
+	}
+	
+.guilds-wrapper .guilds .home-icon {
+    -webkit-box-sizing: border-box; /* No need to edit this */
+    box-sizing: border-box; /* No need to edit this */
+    color: rgba(255, 255, 255, 0); /* DON'T TOUCH THIS */
+    background: url(https://i.imgur.com/nRnH0QS.jpg); /* The URL of the friends icon image you want */
+    height: 100%; /* No need to edit this */
+    padding: 0px; /* No need to edit this */
+    background-position: left; /* This is the section of the image that you want to use, for exmaple this is using the top left of the image, you would probably want to change this to center or top center */
+    background-repeat: no-repeat; /* No need to edit this */
+    width: 100%; /* No need to edit this */
+    background-size: 165%; /* This is how zoomed in your image will be, change this back to 100% and increase or decrease as needed */
+}
+	
+	.botTagRegular-2HEhHi {
+    padding: 2px 3px 2px 3px;
+    background: #CC0605;
+    border-radius: 3px;
+    display: inline-block;
+    flex-shrink: 0;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 13px;
+    margin-left: 6px;
+    padding: 1px 2px;
+    text-transform: uppercase;
+    vertical-align: top;
+	}
+
+	/* Edit this to change the color and weight of the text */
+.theme-dark .message-group .comment .markup {
+    color: rgba(255, 255, 255, 0.8);
+}
+/* Edit this to change the color of the unread notification for a text channel */
+.unread-1Dp-OI {
+    background-color: rgba(231, 037, 018) !important;
+}
+
+
+/* Edit this to change the color of a selected text or voice join */
+.nameSelectedText-sp_EUw, .nameSelectedVoice-1qSph5 {
+    color: #f6f6f7 !important;
+}
+/* Edit this to change the color when you hover over a text channel */
+.nameHoveredText-1uO31y {
+    color: #b9bbbe !important;
+}
+/* Edit this to change the color when you hover over a voice channel */
+.nameHoveredVoice-YJ1Vfd {
+    color: #f6f6f7 !important;
+}
+/* Edit this to change the color of an unread text channel color */
+.nameUnreadText-DfkrI4, .nameUnreadVoice-EVo-wI {
+    color: #dcddde;
+}
+
+/* Edit this to change the color of your scrollbar,  */
+.theme-dark .friends-table .scroller-wrap ::-webkit-scrollbar-thumb, .theme-dark .messages-wrapper .scroller-wrap ::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.15);
+    border-color: rgba(255, 255, 255, 0.15);
+}
+
+/* Edit this to change transparency */
+.guilds-wrapper {
+    background-color: rgba(0, 0, 0, 0.7) !important;
+}
+.channels-Ie2l6A {
+    background-color: rgba(0, 0, 0, 0.7) !important;
+}
+.theme-dark .chat {
+    background-color: rgba(0, 0, 0, 0.7) !important;
+}
+.theme-dark .activityFeed-28jde9 {
+    background-color: rgba(0, 0, 0, 0.7) !important;
+}
+.theme-dark #friends {
+    background-color: rgba(0, 0, 0, 0.7) !important;
+}
+.message-group .comment .markup {
+    font-size: 0.9375rem; /* Font size, default is 0.9375rem, I wouldn't go below 0.8 or above 1.4 */
+    line-height: 1.1em; /* Spacing between the text, I wouldn't recommend changing this but if you do don't go above 1.4 or below 0.6 */
+    margin-top: 6px; /* This is the margin between each new message, safer to change than line-height.  6px is default. Don't go below 0 */ 
+    white-space: pre-wrap; /* No need to edit this */
+    word-wrap: break-word; /* No need to edit this */
+}
+.theme-dark .message-group .comment .markup {
+    color: rgba(255, 255, 255, 0.8);
+}
