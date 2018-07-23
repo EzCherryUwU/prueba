@@ -1,5 +1,5 @@
 //META{"name":"VeXaSuS Theme","description":"A better looking Discord! Up to date and easy to customize, now with wallpaper feature!","author":"EzCherryUwU","version":"0.0.1"}*//{}
-@import url();
+@import url(https://raw.githubusercontent.com/EzCherryUwU/prueba/master/VeXaSuS.theme.css);
 /* change the theme below */
 [class~=app] {
     background: url(https://i.imgur.com/7Y90ez6.jpg)
